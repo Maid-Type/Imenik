@@ -1,0 +1,19 @@
+{
+  "name": "Imenik web app",
+  "version": "0.0.1",
+  "description": "",
+  "private": true,
+  "keywords": [
+    ""
+  ],
+  "license": "",
+  "author": "",
+  "scripts": {
+    "tsc": "npx tsc --watch",
+    "parcel": "npx parcel index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.13.3",
+    "typescript": "^5.7.3"
+  }
+}

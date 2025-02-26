@@ -1,0 +1,108 @@
+[
+  {
+    "ContainingType": "Imenik.Controllers.DrzaveController",
+    "Method": "GetAll",
+    "RelativePath": "drzave",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Imenik.Controllers.GradoviController",
+    "Method": "GetByDrzavaId",
+    "RelativePath": "gradovi/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Imenik.Controllers.KorisnikController",
+    "Method": "GetAll",
+    "RelativePath": "korisnici",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Imenik.Controllers.KorisnikController",
+    "Method": "Create",
+    "RelativePath": "korisnici",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "novaOsoba",
+        "Type": "Imenik.Entities.Osoba",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Imenik.Controllers.KorisnikController",
+    "Method": "GetById",
+    "RelativePath": "korisnici/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetKorisnik"
+  },
+  {
+    "ContainingType": "Imenik.Controllers.KorisnikController",
+    "Method": "Update",
+    "RelativePath": "korisnici/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "azuriranaOsoba",
+        "Type": "OsobaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Imenik.Controllers.KorisnikController",
+    "Method": "Delete",
+    "RelativePath": "korisnici/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

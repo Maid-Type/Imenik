@@ -1,0 +1,46 @@
+GET https://localhost:7090/korisnici
+
+###
+GET https://localhost:7090/korisnici/6
+
+###
+GET https://localhost:7090/drzave
+
+###
+GET https://localhost:7090/gradovi/3
+
+### 
+POST https://localhost:7090/korisnici 
+Content-Type: application/json
+
+{
+  "Ime": "Nerim",
+  "Prezime": "Mesic",
+  "BrojTelefona": "064/441-053",
+  "Pol": "musko",
+  "Email": "maid@gmail.com",
+  "DrzavaId": 3,
+  "GradId": 3,
+  "DatumRodjenja": "2003-05-02T00:00:00",
+  "Starost": 21
+}
+
+###
+PUT https://localhost:7090/korisnici/14
+Content-Type: application/json
+
+{
+  "Ime": "Nermin",
+  "Prezime": "Mesic",
+  "BrojTelefona": "064/441-053",
+  "Pol": "musko",
+  "Email": "maid@gmail.com",
+  "DrzavaId": 3,
+  "GradId": 1,
+  "DatumRodjenja": "2003-05-02T00:00:00",
+  "Starost": 21
+}
+
+###
+DELETE https://localhost:7090/korisnici/13
+
